@@ -1,7 +1,7 @@
-live link :- https://muzzy.pranavhole.space/
+live link:- https://muzzy.artimanputra.site/
 🎵 Muzzy – Collaborative Music Streaming Platform
 
-Muzzy is a modern, cloud-native collaborative music streaming platform where users can submit YouTube URLs, stream audio, and control playback in real-time with other participants. The platform emphasizes scalability, reliability, and seamless real-time collaboration.
+Muzzy is a modern, cloud-native collaborative music streaming platform where users can submit YouTube URLs, stream audio, and control playback in real-time with other participants. The platform emphasises scalability, reliability, and seamless real-time collaboration.
 
 🚀 Features
 
@@ -9,7 +9,7 @@ Collaborative Playback Queue 🎵
 Users can add tracks, reorder, vote on songs, and control playback collaboratively.
 
 Real-time Sync 🔄
-Playback, voting, and control events are synchronized across all connected clients using WebSocket (Socket.IO).
+Playback, voting, and control events are synchronised across all connected clients using WebSocket (Socket.IO).
 
 HLS Audio Streaming
 Audio is transcoded to HLS (.m3u8 + .ts) and streamed with low latency using HLS.js.
@@ -74,7 +74,7 @@ Redis Queue ⚡: Distributes jobs and maintains hot cache state.
 
 Postgres 📦: Stores persistent data (users, playlists, rooms, track metadata).
 
-Socket.IO 🔄: Synchronizes playback and votes across users in real-time.
+Socket.IO 🔄: Synchronises playback and votes across users in real-time.
 
 CDN 🌍: Delivers HLS streams globally with low-latency caching.
 
@@ -112,14 +112,14 @@ Cloudflare R2 account (optional for HLS storage)
 Run Locally
 
 # Clone repo
-git clone https://github.com/pranavhole/muzzfin.git
+git clone https://github.com/artimanputra/muzzfin.git
 cd muzzy
 
 # Install dependencies
 npm install
 
 # Run frontend
-npm run dev:frontend
+npm run dev: frontend
 
 # Run backend API
 npm run dev:api
@@ -138,10 +138,10 @@ Designed for scalability, reliability, and real-time collaboration.
 
 HLS segments served globally with signed URLs for secure access.
 
-Collaborative queue ensures fair voting and playback synchronization.
+Collaborative queue ensures fair voting and playback synchronisation.
 
 
 
 🔗 Links
 
-Live Demo: https://muzzy.pranavhole.space
+Live Demo: https://muzzy.artimanputra.site/
